@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/styles.css';
 import logo from '../images/logo.png';
-import Grid from '@mui/material/Grid';
 
 function Footer(){
     const footerStyle = {
@@ -14,20 +13,17 @@ function Footer(){
 
     return(
         <div className='footer'>
-            <Grid container>
-                <Grid item xs={5}>
-                <img src={logo} alt='' className='logo2'/>
+            <div className='footerbody'>
+                <div classname='companyabout'>
+                    <img src={logo} alt='' className='logo2'/>
 
-                <div className='about' style={footerStyle}>
-                    Your goal is our target. Not anything in between. We use <br/> 
-                    online marketing platforms and tools to achieve <br/>
-                    single objective - your business results.
+                    <div className='about' style={footerStyle}>
+                        Your goal is our target. Not anything in between. We use 
+                        online marketing platforms and tools to achieve 
+                        single objective - your business results.
+                    </div>
                 </div>
-                </Grid>
-                <Grid item xs={1.75}>
-                    
-                </Grid>
-                <Grid item xs={2}>
+                <div className='technologydet'>
                     <div className='title' style={techStyle}>
                         Our Technologies
                     </div>
@@ -37,15 +33,10 @@ function Footer(){
                             <li> Gatsby </li>
                             <li> NextJS </li>
                             <li> NodeJS </li>
-                            <li> GraphQL </li>
-                            <li> Laravel </li>
                         </ul>
                     </div>
-                </Grid>
-                <Grid item xs={0.5}>
-                    
-                </Grid>
-                <Grid item xs={2}>
+                </div>
+                <div className='servicedet'>
                     <div className='title'>
                         Our Services
                     </div>
@@ -54,16 +45,11 @@ function Footer(){
                             <li> Social media Marketing </li>
                             <li> Web & Mobile App Development </li>
                             <li> Data & Analytics </li>
-                            <li> Google Marketing solutions </li>
-                            <li> Search Engine Optimization </li>
                         </ul>
                     </div>
-                </Grid>
-                <Grid item xs={1}>
-                    
-                </Grid>
-
-            </Grid>
+                </div>
+            </div>
+            
             <center>
                 <hr/>
                 <div className='policy'style={techStyle}>

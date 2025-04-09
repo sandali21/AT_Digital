@@ -1,155 +1,883 @@
-.navbar{
-    background-color: #6B3CC9;
-    height: 77px;
+@media only screen and (max-width: 1440px) {
+    .navbar{
+        background-color: #6B3CC9;
+        height: 77px;
+    }
+    
+    .logo1{
+        width: 175px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .mobilenav, .fa-bars{
+        display:none;
+    }
+    
+    .navlink{
+        color:white;
+        margin-right: 30px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .subnav{
+        float: right;
+        margin-top: 25px;
+        margin-right: 50px;
+    }
+    
+    .background{
+        width:100%;
+    }
+    
+    .container{
+        position: relative;
+        color: white;
+    }
+    
+    .content{
+        position:absolute;
+        top: 315px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        background-image: linear-gradient(to right, #4DCA79 , #1CBDDD );
+        max-width:675px;
+        height: 250px;
+        left: 75px;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+        gap: 20px;
+    }
+    
+    .btn1, .btn2{
+        height: 38px;
+        padding: 12px, 20px, 12px, 20px;
+        border-radius: 4px;
+        gap: 8px;
+        border: none;
+        background-color: #F28D35;
+        color: white;
+        font-weight: bold;
+        font-size:14px;
+        line-height: 14px;
+        cursor: pointer;
+    }
+    
+    .btn1{
+        width: 214px;
+    }
+    
+    .btn2{
+        width: 129px;
+    }
+    
+    .app{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0.4000000059604645px;
+        text-align: left;
+        color: #6B3CC9;
+        margin-top: 120px;
+    }
+    
+    .appdetail{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    }
+    
+    .footer{
+        background-color: #6B3CC9;
+        height: 300px;
+    }
+    
+    .logo2{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 75px;
+    }
+    
+    .about{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        margin-top: 20px;
+        margin-left: 75px;
+        max-width: 450px;
+    }
+
+    .technologydet, .servicedet{
+        margin-left: 150px;
+    }
+    
+    .title{
+        margin-top: 30px;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        color: white;
+    }
+    
+    .technologies, .service{
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0em;
+        margin-left: -40px;
+        line-height: 30px;
+        list-style: none;
+    }
+    
+    .technologies ul, .service ul{
+        list-style: none;
+    }
+    
+    hr{
+        width: 600px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .policy{
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+    }
+    
+    span{
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .faq{
+        font-size: 24px;
+        font-weight: 600;
+        color: #6B3CC9;
+    }
+
+    #faqcollapse{
+        color: black;
+        background-color: #FAF8FF;
+        width: 50%;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .faqexpand{
+        color: #6B3CC9;
+        background-color: #FAF8FF;
+        width: 50%;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .faq1 button{
+        border: none;
+        background: inherit;
+        cursor: pointer;
+    }
+
+    .footerbody{
+        display: flex;
+        flex-direction: row;
+        margin-bottom:30px;
+    }
 }
 
-.logo1{
-    width: 175px;
-    margin-top: 20px;
-    margin-left: 100px;
+@media only screen and (max-width: 1200px) {
+    .navbar{
+        background-color: #6B3CC9;
+        height: 77px;
+    }
+
+    .mobilenav, .fa-bars{
+        display:none;
+    }
+    
+    .logo1{
+        width: 175px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    
+    .navlink{
+        color:white;
+        margin-right: 20px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .subnav{
+        float: right;
+        margin-top: 25px;
+        margin-right: 50px;
+    }
+    
+    .background{
+        width:100%;
+    }
+    
+    .container{
+        position: relative;
+        color: white;
+    }
+    
+    .content{
+        position:absolute;
+        top: 250px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        background-image: linear-gradient(to right, #4DCA79 , #1CBDDD );
+        width:max-content;
+        height: 250px;
+        left: 75px;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+        gap: 20px;
+    }
+    
+    .btn1, .btn2{
+        height: 38px;
+        padding: 12px, 20px, 12px, 20px;
+        border-radius: 4px;
+        gap: 8px;
+        border: none;
+        background-color: #F28D35;
+        color: white;
+        font-weight: bold;
+        font-size:14px;
+        line-height: 14px;
+        cursor: pointer;
+    }
+    
+    .btn1{
+        width: 214px;
+    }
+    
+    .btn2{
+        width: 129px;
+    }
+    
+    .app{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0.4000000059604645px;
+        text-align: left;
+        color: #6B3CC9;
+        margin-top: 120px;
+    }
+
+    .appdetail{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    }
+    
+    .footer{
+        background-color: #6B3CC9;
+        height: 300px;
+    }
+    
+    .logo2{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 75px;
+    }
+    
+    .about{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+    
+    .title{
+        margin-top: 30px;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        color: white;
+    }
+    
+    .technologies, .service{
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0em;
+        margin-left: -40px;
+        line-height: 30px;
+        list-style: none;
+    }
+    
+    .technologies ul, .service ul{
+        list-style: none;
+    }
+    
+    hr{
+        width: 600px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .policy{
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+    }
+    
+    span{
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .faq{
+        font-size: 24px;
+        font-weight: 600;
+        color: #6B3CC9;
+    }
+
+    #faqcollapse{
+        color: black;
+        background-color: #FAF8FF;
+        width: 50%;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .faqexpand{
+        color: #6B3CC9;
+        background-color: #FAF8FF;
+        width: 50%;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .faq1 button{
+        border: none;
+        background: inherit;
+        cursor: pointer;
+    }
+
+    .footerbody{
+        display: flex;
+        flex-direction: row;
+        margin-bottom:30px;
+    }
 }
 
-.navlink{
-    color:white;
-    margin-right: 30px;
-    text-decoration: none;
-    font-size: 14px;
+@media only screen and (max-width: 768px) {
+    .navbar{
+        background-color: #6B3CC9;
+        height: 77px;
+    }
+    
+    .logo1{
+        width: 175px;
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+
+    .mobilenav, .fa-bars{
+        display:none;
+    }
+    
+    .navlink{
+        color:white;
+        margin-right: 30px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .subnav{
+        float: right;
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+    
+    .background{
+        width:100%;
+    }
+    
+    .container{
+        position: relative;
+        color: white;
+        margin-bottom: 100px;
+    }
+    
+    .content{
+        position: absolute;
+        top: 350px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        background-image: linear-gradient(to right, #4DCA79 , #1CBDDD );
+        max-width:fit-content;
+        height: 200px;
+        left: 0;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+        gap: 20px;
+    }
+    
+    .btn1, .btn2{
+        height: 38px;
+        padding: 12px, 20px, 12px, 20px;
+        border-radius: 4px;
+        gap: 8px;
+        border: none;
+        background-color: #F28D35;
+        color: white;
+        font-weight: bold;
+        font-size:14px;
+        line-height: 14px;
+        cursor: pointer;
+    }
+    
+    .btn1{
+        width: 214px;
+    }
+    
+    .btn2{
+        width: 129px;
+        margin-left: 30px;
+    }
+    
+    .bodyimg{
+        width: 120%;
+        margin-top:100px;
+    }
+
+    .app{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0.4000000059604645px;
+        text-align: left;
+        color: #6B3CC9;
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+    
+    .appdetail{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 30px;
+    }
+    
+    .footer{
+        background-color: #6B3CC9;
+        height: 400px;
+    }
+
+    .footerbody{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo2{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 75px;
+    }
+    
+    .about{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        margin-top: 20px;
+        margin-left: 75px;
+        width: max-content;
+    }
+    
+    .title{
+        margin-top: 20px;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        color: white;
+    }
+    
+    .technologies, .service{
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0em;
+        margin-left: -40px;
+        line-height: 30px;
+        list-style: none;
+    }
+    
+    .technologies ul, .service ul{
+        list-style: none;
+    }
+    
+    hr{
+        width: 600px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .policy{
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+    }
+    
+    span{
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .faq{
+        font-size: 24px;
+        font-weight: 600;
+        color: #6B3CC9;
+    }
+
+    #faqcollapse{
+        color: black;
+        background-color: #FAF8FF;
+        width: 75%;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .faqexpand{
+        color: #6B3CC9;
+        background-color: #FAF8FF;
+        width: 75%;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .faq1 button{
+        border: none;
+        background: inherit;
+        cursor: pointer;
+    }
+
+    .technologydet{
+        margin-left: 75px;
+        margin-top: 10px;
+    }
+
+    .servicedet{
+        margin-top: -191px;
+        margin-left: 400px;
+    }
+
 }
 
-.subnav{
-    float: right;
-    margin-top: 25px;
-    margin-right: 50px;
-}
+@media only screen and (max-width: 375px) {
+    .mobile-menu-bar .active {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        background-color: #ffffff;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border-radius: 2px;
+        box-shadow: 0px 0px 10px #41436A;
+        width:200px;
+        float: right;
+        padding: 15px;
+        z-index: 2000;
+        gap: 20px;
+        height: 200px;
+    }
 
-.hero{
-    width:100%;
-}
+    .closebtn{
+        font-size: 24px;
+        cursor: pointer;
+        color: black;
+        border: none;
+        background-color: transparent;
+        display:block;
+        margin-left: 175px;
+    }
 
-.container{
-    position: relative;
-    color: white;
-}
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        color: #FFFFFF;
+        border: none;
+        background-color: transparent;
+        display:block;
+        float: right;
+        margin-top: -30px;
+        margin-right: 20px;
+    }
+    
+    .openbtn:hover {
+        color: #41436A; 
+    }
 
-.content{
-    position: absolute;
-    top: 315px;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    background-image: linear-gradient(to right, #4DCA79 , #1CBDDD );
-    width: auto;
-    height: 250px;
-    left: 75px;
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 30px;
-    gap: 20px;
-}
+    .mobile-menu {
+        display: none;
+    }
 
-.btn1, .btn2{
-    height: 38px;
-    padding: 12px, 20px, 12px, 20px;
-    border-radius: 4px;
-    gap: 8px;
-    border: none;
-    background-color: #F28D35;
-    color: white;
-    font-weight: bold;
-    font-size:14px;
-    line-height: 14px;
-}
+    .navbar{
+        background-color: #6B3CC9;
+        height: 77px;
+    }
 
-.btn1{
-    width: 214px;
-}
+    .logo1{
+        width: 175px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
 
-.btn2{
-    width: 129px;
-}
+    .navlink{
+        color:black;
+        margin-right: 30px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .subnav{
+        float: right;
+        margin-top: 25px;
+        margin-right: 50px;
+        display:none;
+    }
+    
+    .background{
+        width:100%;
+    }
+    
+    .container{
+        position: relative;
+        color: white;
+    }
+    
+    .content{
+        position: absolute;
+        top: 175px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        background-image: linear-gradient(to right, #4DCA79 , #1CBDDD );
+        width: auto;
+        height: auto;
+        left: 0;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+        gap: 20px;
+    }
+    
+    .btn1, .btn2{
+        height: 38px;
+        padding: 12px, 20px, 12px, 20px;
+        border-radius: 4px;
+        gap: 8px;
+        border: none;
+        background-color: #F28D35;
+        color: white;
+        font-weight: bold;
+        font-size:14px;
+        line-height: 14px;
+        cursor: pointer;
+    }
+    
+    .btn1{
+        width: 214px;
+    }
+    
+    .btn2{
+        width: 129px;
+        margin-left: -125px;
+    }
 
-.app{
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 33px;
-    letter-spacing: 0.4000000059604645px;
-    text-align: left;
-    color: #6B3CC9;
-    margin-top: 120px;
-}
+    .bodyimg{
+        width: 225%;
+        margin-top:150px;
+        margin-left: 20px;
+    }
 
-.appdetail{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
+    #bodyimg2{
+        width: 225%;
+        margin-left: -175px;
+        margin-top: 0;
+    }
 
-}
+    .app{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0.4000000059604645px;
+        text-align: left;
+        color: #6B3CC9;
+        margin-top: 400px;
+        margin-left: -125px;
+    }
+    
+    .app2{
+        margin-left: 150px;
+        width: 150px;
+        margin-top: -80px;
+    }
 
-.footer{
-    background-color: #6B3CC9;
-    height: 324px;
-}
+    .appdetail{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: -125px;
+    }
+    
+    .footer{
+        background-color: #6B3CC9;
+        height: auto;
+    }
+    
+    .logo2{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    .about{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        margin-top: 20px;
+        margin-left: 30px;
+        max-width: fit-content;
+    }
+    
+    .title{
+        margin-top: 30px;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        color: white;
+    }
+    
+    .technologies, .service{
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0em;
+        margin-left: -40px;
+        line-height: 30px;
+        list-style: none;
+    }
+    
+    .technologies ul, .service ul{
+        list-style: none;
+    }
+    
+    hr{
+        width: 600px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .policy{
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        padding-bottom: 15px;
+    }
+    
+    span{
+        margin-right: 10px;
+        margin-left: 10px
+    }
 
-.logo2{
-    width: 200px;
-    margin-top: 30px;
-    margin-left: 75px;
-}
+    .faq{
+        font-size: 24px;
+        font-weight: 600;
+        color: #6B3CC9;
+    }
 
-.about{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;
-    margin-top: 20px;
-    margin-left: 75px;
-}
+    #faqcollapse{
+        color: black;
+        background-color: #FAF8FF;
+        width: 50%;
+        padding: 5px;
+        border-radius: 5px;
+    }
 
-.title{
-    margin-top: 30px;
-    font-size: 21px;
-    font-weight: 600;
-    line-height: 25px;
-    letter-spacing: 0em;
-    color: white;
-}
+    .faqexpand{
+        color: #6B3CC9;
+        background-color: #FAF8FF;
+        width: 50%;
+        padding: 5px;
+        border-radius: 5px;
+    }
 
-.technologies, .service{
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0em;
-    margin-left: -40px;
-    line-height: 30px;
-    list-style: none;
-}
+    .faq1 button{
+        border: none;
+        background: inherit;
+        cursor: pointer;
+    }
 
-.technologies ul, .service ul{
-    list-style: none;
-}
+    .footerbody{
+        display: flex;
+        flex-direction: column;
+    }
 
-hr{
-    width: 600px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    .technologydet , .servicedet{
+        margin-left: 30px;
+        margin-top: 0;
+    }
 
-.policy{
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 17px;
-    letter-spacing: 0em;
-}
-
-span{
-    margin-right: 10px;
-    margin-left: 10px
 }
