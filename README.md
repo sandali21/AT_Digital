@@ -8,6 +8,6 @@
 - Netlify : For deploying the website and making it publicly accessible
 
 ### Live Demo
-#### You can see the live demo of the project at https://atdigital-sandali-assignment.netlify.app/
+#### You can see the live demo of the project at [AT Digital](https://atdigital-sandali.netlify.app/)
 
 
