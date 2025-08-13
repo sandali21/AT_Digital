@@ -35,7 +35,7 @@ function MainContent(){
                     <button className='btn1' style={containerStyle}> GET FREE CONSULTATION </button>
                 </div>
             </div>
-            <br/> <br/>
+            <div className='app-body'>
             <Grid container>
                 <Grid item xs = {1}>
                 </Grid>
@@ -83,12 +83,46 @@ function MainContent(){
                 <Grid item xs = {1}>
                 </Grid>
             </Grid>
+            </div>
+            <div className='mobile-body'>
+                <div className='sub-body'>
+                    <img src={app} alt='' className='bodyimg'/>
+                        <div className='app' style={appStyle}> 
+                            Web & Mobile App Development
+                        </div> <br/>
+                        <div className='appdetail' style={containerStyle}>
+                        Your web and mobile Apps are pieces of the puzzle to grow your business. 
+                        We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential 
+                        customers who interact with your business online.
+                        </div> <br/>
+                        <button className='btn2' style={containerStyle}> LEARN MORE </button>
+                </div>
+                <div className='sub-body'>
+                    <img src={digital} alt='' className='bodyimg' id='bodyimg2'/>
+                        <div className='app2' id='appdetail2'>
+                            <div className='app' style={appStyle}> 
+                                Digital Strategy Consulting
+                            </div> <br/>
+                            <div className='appdetail' style={containerStyle}>
+                            Your digital strategy should complement the overall marketing strategy of the company. 
+                            In online marketing, each component will never work in isolation and every business needs a different mix. 
+                            We provide a clear concept and strategic overview to find the most efficient model for your business.
+                            </div> <br/>
+                            <button className='btn2' id = 'btn2' style={containerStyle}> LEARN MORE </button>
+                        </div>
+                    </div>
+                    <div>
+                </div>
+            </div>
+
             <br/> <br/> 
             <center style={appStyle}>
                 <h2 className='faq'> Frequently asked questions </h2>
                 <div className='faq1'>
+                    <div className='collapsedDetails'>
                     <div className={activeTab === 'collapse1' ? 'faqcollapse' : 'faq1'} id="faqcollapse">
                         <h4> What is Webflow and why is it the best website builder? <button className={activeTab === 'collapse1' ? 'active-tab' : ''} onClick={() => handleTabChange('collapse1')}>{activeTab === 'collapse1' ? <i className='fa fa-minus'></i> : <i className='fa fa-plus'></i>}</button> </h4>
+                    </div>
                     </div>
 
                     {activeTab === 'collapse1' && (

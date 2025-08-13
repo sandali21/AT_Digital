@@ -23,6 +23,7 @@ function Footer(){
                         single objective - your business results.
                     </div>
                 </div>
+                <div className='footerflex'>
                 <div className='technologydet'>
                     <div className='title' style={techStyle}>
                         Our Technologies
@@ -47,6 +48,7 @@ function Footer(){
                             <li> Data & Analytics </li>
                         </ul>
                     </div>
+                </div>
                 </div>
             </div>
             

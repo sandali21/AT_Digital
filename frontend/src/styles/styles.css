@@ -1,883 +1,495 @@
-@media only screen and (max-width: 1440px) {
-    .navbar{
-        background-color: #6B3CC9;
-        height: 77px;
-    }
-    
-    .logo1{
-        width: 175px;
-        margin-top: 20px;
-        margin-left: 100px;
-    }
-
-    .mobilenav, .fa-bars{
-        display:none;
-    }
-    
-    .navlink{
-        color:white;
-        margin-right: 30px;
-        text-decoration: none;
-        font-size: 14px;
-    }
-    
-    .subnav{
-        float: right;
-        margin-top: 25px;
-        margin-right: 50px;
-    }
-    
-    .background{
-        width:100%;
-    }
-    
-    .container{
-        position: relative;
-        color: white;
-    }
-    
-    .content{
-        position:absolute;
-        top: 315px;
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: -0.02em;
-        text-align: left;
-        background-image: linear-gradient(to right, #4DCA79 , #1CBDDD );
-        max-width:675px;
-        height: 250px;
-        left: 75px;
-        padding-left: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 30px;
-        gap: 20px;
-    }
-    
-    .btn1, .btn2{
-        height: 38px;
-        padding: 12px, 20px, 12px, 20px;
-        border-radius: 4px;
-        gap: 8px;
-        border: none;
-        background-color: #F28D35;
-        color: white;
-        font-weight: bold;
-        font-size:14px;
-        line-height: 14px;
-        cursor: pointer;
-    }
-    
-    .btn1{
-        width: 214px;
-    }
-    
-    .btn2{
-        width: 129px;
-    }
-    
-    .app{
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 33px;
-        letter-spacing: 0.4000000059604645px;
-        text-align: left;
-        color: #6B3CC9;
-        margin-top: 120px;
-    }
-    
-    .appdetail{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-    
-    }
-    
-    .footer{
-        background-color: #6B3CC9;
-        height: 300px;
-    }
-    
-    .logo2{
-        width: 200px;
-        margin-top: 30px;
-        margin-left: 75px;
-    }
-    
-    .about{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: white;
-        margin-top: 20px;
-        margin-left: 75px;
-        max-width: 450px;
-    }
-
-    .technologydet, .servicedet{
-        margin-left: 150px;
-    }
-    
-    .title{
-        margin-top: 30px;
-        font-size: 21px;
-        font-weight: 600;
-        line-height: 25px;
-        letter-spacing: 0em;
-        color: white;
-    }
-    
-    .technologies, .service{
-        color: #FFFFFF;
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0em;
-        margin-left: -40px;
-        line-height: 30px;
-        list-style: none;
-    }
-    
-    .technologies ul, .service ul{
-        list-style: none;
-    }
-    
-    hr{
-        width: 600px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .policy{
-        color: white;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 17px;
-        letter-spacing: 0em;
-    }
-    
-    span{
-        margin-right: 10px;
-        margin-left: 10px
-    }
-
-    .faq{
-        font-size: 24px;
-        font-weight: 600;
-        color: #6B3CC9;
-    }
-
-    #faqcollapse{
-        color: black;
-        background-color: #FAF8FF;
-        width: 50%;
-        padding: 5px;
-        border-radius: 5px;
-    }
-
-    .faqexpand{
-        color: #6B3CC9;
-        background-color: #FAF8FF;
-        width: 50%;
-        padding: 5px;
-        border-radius: 5px;
-    }
-
-    .faq1 button{
-        border: none;
-        background: inherit;
-        cursor: pointer;
-    }
-
-    .footerbody{
-        display: flex;
-        flex-direction: row;
-        margin-bottom:30px;
-    }
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-@media only screen and (max-width: 1200px) {
-    .navbar{
-        background-color: #6B3CC9;
-        height: 77px;
-    }
-
-    .mobilenav, .fa-bars{
-        display:none;
-    }
-    
-    .logo1{
-        width: 175px;
-        margin-top: 20px;
-        margin-left: 50px;
-    }
-    
-    .navlink{
-        color:white;
-        margin-right: 20px;
-        text-decoration: none;
-        font-size: 14px;
-    }
-    
-    .subnav{
-        float: right;
-        margin-top: 25px;
-        margin-right: 50px;
-    }
-    
-    .background{
-        width:100%;
-    }
-    
-    .container{
-        position: relative;
-        color: white;
-    }
-    
-    .content{
-        position:absolute;
-        top: 250px;
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: -0.02em;
-        text-align: left;
-        background-image: linear-gradient(to right, #4DCA79 , #1CBDDD );
-        width:max-content;
-        height: 250px;
-        left: 75px;
-        padding-left: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 30px;
-        gap: 20px;
-    }
-    
-    .btn1, .btn2{
-        height: 38px;
-        padding: 12px, 20px, 12px, 20px;
-        border-radius: 4px;
-        gap: 8px;
-        border: none;
-        background-color: #F28D35;
-        color: white;
-        font-weight: bold;
-        font-size:14px;
-        line-height: 14px;
-        cursor: pointer;
-    }
-    
-    .btn1{
-        width: 214px;
-    }
-    
-    .btn2{
-        width: 129px;
-    }
-    
-    .app{
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 33px;
-        letter-spacing: 0.4000000059604645px;
-        text-align: left;
-        color: #6B3CC9;
-        margin-top: 120px;
-    }
-
-    .appdetail{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-    
-    }
-    
-    .footer{
-        background-color: #6B3CC9;
-        height: 300px;
-    }
-    
-    .logo2{
-        width: 200px;
-        margin-top: 30px;
-        margin-left: 75px;
-    }
-    
-    .about{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: white;
-        margin-top: 20px;
-        margin-left: 75px;
-    }
-    
-    .title{
-        margin-top: 30px;
-        font-size: 21px;
-        font-weight: 600;
-        line-height: 25px;
-        letter-spacing: 0em;
-        color: white;
-    }
-    
-    .technologies, .service{
-        color: #FFFFFF;
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0em;
-        margin-left: -40px;
-        line-height: 30px;
-        list-style: none;
-    }
-    
-    .technologies ul, .service ul{
-        list-style: none;
-    }
-    
-    hr{
-        width: 600px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .policy{
-        color: white;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 17px;
-        letter-spacing: 0em;
-    }
-    
-    span{
-        margin-right: 10px;
-        margin-left: 10px
-    }
-
-    .faq{
-        font-size: 24px;
-        font-weight: 600;
-        color: #6B3CC9;
-    }
-
-    #faqcollapse{
-        color: black;
-        background-color: #FAF8FF;
-        width: 50%;
-        padding: 5px;
-        border-radius: 5px;
-    }
-
-    .faqexpand{
-        color: #6B3CC9;
-        background-color: #FAF8FF;
-        width: 50%;
-        padding: 5px;
-        border-radius: 5px;
-    }
-
-    .faq1 button{
-        border: none;
-        background: inherit;
-        cursor: pointer;
-    }
-
-    .footerbody{
-        display: flex;
-        flex-direction: row;
-        margin-bottom:30px;
-    }
+/* Make all elements respect the box size */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media only screen and (max-width: 768px) {
-    .navbar{
-        background-color: #6B3CC9;
-        height: 77px;
-    }
-    
-    .logo1{
-        width: 175px;
-        margin-top: 20px;
-        margin-left: 75px;
-    }
+/* Ensure sections don't exceed viewport width */
+.container, .section, .banner, img {
+  max-width: 100%;
+  width: 100%;
+}
 
-    .mobilenav, .fa-bars{
-        display:none;
-    }
-    
-    .navlink{
-        color:white;
-        margin-right: 30px;
-        text-decoration: none;
-        font-size: 14px;
-    }
-    
-    .subnav{
-        float: right;
-        margin-top: 25px;
-        margin-right: 20px;
-    }
-    
-    .background{
-        width:100%;
-    }
-    
-    .container{
-        position: relative;
-        color: white;
-        margin-bottom: 100px;
-    }
-    
-    .content{
-        position: absolute;
-        top: 350px;
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: -0.02em;
-        text-align: left;
-        background-image: linear-gradient(to right, #4DCA79 , #1CBDDD );
-        max-width:fit-content;
-        height: 200px;
-        left: 0;
-        padding-left: 50px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 30px;
-        gap: 20px;
-    }
-    
-    .btn1, .btn2{
-        height: 38px;
-        padding: 12px, 20px, 12px, 20px;
-        border-radius: 4px;
-        gap: 8px;
-        border: none;
-        background-color: #F28D35;
-        color: white;
-        font-weight: bold;
-        font-size:14px;
-        line-height: 14px;
-        cursor: pointer;
-    }
-    
-    .btn1{
-        width: 214px;
-    }
-    
-    .btn2{
-        width: 129px;
-        margin-left: 30px;
-    }
-    
-    .bodyimg{
-        width: 120%;
-        margin-top:100px;
-    }
+.navbar {
+	background-color: #4F46E5;
+	height: 77px;
+}
 
-    .app{
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 33px;
-        letter-spacing: 0.4000000059604645px;
-        text-align: left;
-        color: #6B3CC9;
-        margin-top: 120px;
-        margin-left: 30px;
-    }
-    
-    .appdetail{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-        margin-left: 30px;
-    }
-    
-    .footer{
-        background-color: #6B3CC9;
-        height: 400px;
-    }
+.mobile-body{
+	display: none;
+}
 
-    .footerbody{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .logo2{
-        width: 200px;
-        margin-top: 30px;
-        margin-left: 75px;
-    }
-    
-    .about{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: white;
-        margin-top: 20px;
-        margin-left: 75px;
-        width: max-content;
-    }
-    
-    .title{
-        margin-top: 20px;
-        font-size: 21px;
-        font-weight: 600;
-        line-height: 25px;
-        letter-spacing: 0em;
-        color: white;
-    }
-    
-    .technologies, .service{
-        color: #FFFFFF;
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0em;
-        margin-left: -40px;
-        line-height: 30px;
-        list-style: none;
-    }
-    
-    .technologies ul, .service ul{
-        list-style: none;
-    }
-    
-    hr{
-        width: 600px;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-    
-    .policy{
-        color: white;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 17px;
-        letter-spacing: 0em;
-    }
-    
-    span{
-        margin-right: 10px;
-        margin-left: 10px
-    }
+.mobile-menu-bar{
+    display: none;
+}
 
-    .faq{
-        font-size: 24px;
-        font-weight: 600;
-        color: #6B3CC9;
-    }
+.logo1 {
+	width: 175px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
 
-    #faqcollapse{
-        color: black;
-        background-color: #FAF8FF;
-        width: 75%;
-        padding: 5px;
-        border-radius: 5px;
-    }
+.mobilenav,
+.fa-bars {
+	display: none;
+}
 
-    .faqexpand{
-        color: #6B3CC9;
-        background-color: #FAF8FF;
-        width: 75%;
-        padding: 5px;
-        border-radius: 5px;
-    }
+.navlink {
+	color: white;
+	margin-right: 30px;
+	text-decoration: none;
+	font-size: 14px;
+}
 
-    .faq1 button{
-        border: none;
-        background: inherit;
-        cursor: pointer;
-    }
+.subnav {
+	float: right;
+	margin-top: 25px;
+	margin-right: 50px;
+}
 
-    .technologydet{
-        margin-left: 75px;
-        margin-top: 10px;
-    }
+.background {
+	width: 100%;
+}
 
-    .servicedet{
-        margin-top: -191px;
-        margin-left: 400px;
-    }
+.container {
+	position: relative;
+	color: white;
+}
+
+.content {
+  background-image: linear-gradient(to right, #4DCA79, #1CBDDD);
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  padding: 20px 30px;
+  max-width: 675px;
+  height: auto;
+  position: absolute;
+  left: 75px;
+  top: 315px;
+  box-sizing: border-box;
+}
+
+.btn1,
+.btn2 {
+	height: 38px;
+	padding: 12px, 20px, 12px, 20px;
+	border-radius: 4px;
+	gap: 8px;
+	border: none;
+	background-color: #F28D35;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 14px;
+	cursor: pointer;
+}
+
+.btn1 {
+	width: 214px;
+}
+
+.btn2 {
+	width: 129px;
+}
+
+.bodyimg {
+	width: 100%;
+}
+
+.sub-body{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 50px;
+}
+
+.app {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 33px;
+	letter-spacing: 0.4000000059604645px;
+	text-align: left;
+	color: #6B3CC9;
+	margin-top: 120px;
+}
+
+.app2{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.appdetail {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	width: 600px;
+}
+
+.footer {
+	background-color: #4F46E5;
+	height: auto;
+}
+
+.logo2 {
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 75px;
+}
+
+.about {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: white;
+	margin-top: 20px;
+	margin-left: 75px;
+	max-width: 450px;
+}
+
+.technologydet,
+.servicedet {
+	margin-left: 150px;
+}
+
+.title {
+	margin-top: 30px;
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 25px;
+	letter-spacing: 0em;
+	color: white;
+}
+
+.technologies,
+.service {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0em;
+	margin-left: -40px;
+	line-height: 30px;
+	list-style: none;
+}
+
+.technologies ul,
+.service ul {
+	list-style: none;
+}
+
+hr {
+	width: 600px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.policy {
+	color: white;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17px;
+	letter-spacing: 0em;
+	padding-bottom: 10px;
+}
+
+span {
+	margin-right: 10px;
+	margin-left: 10px
+}
+
+.faq {
+	font-size: 24px;
+	font-weight: 600;
+	color: #6B3CC9;
+}
+
+#faqcollapse {
+	color: black;
+	background-color: #FAF8FF;
+	width: 50%;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.faqexpand {
+	color: #6B3CC9;
+	background-color: #FAF8FF;
+	width: 50%;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.faq1 button {
+	border: none;
+	background: inherit;
+	cursor: pointer;
+}
+
+.footerbody, .footerflex {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    left: 60px;
+    max-width: 600px;
+    font-size: 48px;
+    line-height: 48px;
+    padding: 20px;
+	margin-top: -50px;
+  }
+
+  .btn1 {
+    width: auto;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+    max-width: 100%;
+    margin-top: -100px;
+	left: 0;
+    font-size:48px;
+    line-height: 48px;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .bodyimg{
+	width: 200%;
+	padding-top:50px;
+  }
+  .app2 .app, .app2 .appdetail{
+	width:350px;
+  }
+
+  .btn1 {
+    width: auto;
+    padding: 10px 20px;
+  }
+
+  .bodyimg{
+	margin-top: 70px;
+	width:110%
+  }
+
+  .faq1, .faq2, .faq3, .faq4 {
+	width: 175%;
+	margin-left: -190px;
+  }
+
+  .footerbody {
+    display:block;
+  }
+
+  .footerflex{
+	display: flex;
+	flex-direction: row;
+  }
+
+  .technologydet,
+  .servicedet {
+	margin-left: 70px;
+  }
+
+  .footer{
+	height: auto;
+  }
+
+  .policy{
+	padding-bottom: 10px;
+  }
 
 }
 
-@media only screen and (max-width: 375px) {
-    .mobile-menu-bar .active {
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        background-color: #ffffff;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        border-radius: 2px;
-        box-shadow: 0px 0px 10px #41436A;
-        width:200px;
-        float: right;
-        padding: 15px;
-        z-index: 2000;
-        gap: 20px;
-        height: 200px;
-    }
+@media (max-width: 375px) {
+	.content {
+		width: 100%;
+		max-width: 100%;
+		margin-top: -150px;
+		left: 0;
+		font-size:36px;
+		line-height: 48px;
+		text-align: left;
+		padding: 20px;
+	}
 
-    .closebtn{
-        font-size: 24px;
-        cursor: pointer;
-        color: black;
-        border: none;
-        background-color: transparent;
-        display:block;
-        margin-left: 175px;
-    }
+	.btn1 {
+		width: auto;
+		padding: 10px 20px;
+	}
 
-    .openbtn {
-        font-size: 20px;
-        cursor: pointer;
-        color: #FFFFFF;
-        border: none;
-        background-color: transparent;
-        display:block;
-        float: right;
-        margin-top: -30px;
-        margin-right: 20px;
-    }
-    
-    .openbtn:hover {
-        color: #41436A; 
-    }
+	.bodyimg{
+		margin-top: 70px;
+		width:200%
+	}
 
-    .mobile-menu {
-        display: none;
-    }
+	.faq1, .faq2, .faq3, .faq4 {
+		width: 175%;
+		margin-left: -190px;
+	}
 
-    .navbar{
-        background-color: #6B3CC9;
-        height: 77px;
-    }
+	.footerbody {
+		display:block;
+	}
 
-    .logo1{
-        width: 175px;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
+	.footerflex{
+		display: flex;
+		flex-direction: row;
+	}
 
-    .navlink{
-        color:black;
-        margin-right: 30px;
-        text-decoration: none;
-        font-size: 14px;
-    }
-    
-    .subnav{
-        float: right;
-        margin-top: 25px;
-        margin-right: 50px;
-        display:none;
-    }
-    
-    .background{
-        width:100%;
-    }
-    
-    .container{
-        position: relative;
-        color: white;
-    }
-    
-    .content{
-        position: absolute;
-        top: 175px;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: -0.02em;
-        text-align: left;
-        background-image: linear-gradient(to right, #4DCA79 , #1CBDDD );
-        width: auto;
-        height: auto;
-        left: 0;
-        padding-left: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 30px;
-        gap: 20px;
-    }
-    
-    .btn1, .btn2{
-        height: 38px;
-        padding: 12px, 20px, 12px, 20px;
-        border-radius: 4px;
-        gap: 8px;
-        border: none;
-        background-color: #F28D35;
-        color: white;
-        font-weight: bold;
-        font-size:14px;
-        line-height: 14px;
-        cursor: pointer;
-    }
-    
-    .btn1{
-        width: 214px;
-    }
-    
-    .btn2{
-        width: 129px;
-        margin-left: -125px;
-    }
+	.technologydet,
+	.servicedet {
+		margin-left: 70px;
+	}
 
-    .bodyimg{
-        width: 225%;
-        margin-top:150px;
-        margin-left: 20px;
-    }
+	.footer{
+		height: auto;
+	}
 
-    #bodyimg2{
-        width: 225%;
-        margin-left: -175px;
-        margin-top: 0;
-    }
+	.policy{
+		padding-bottom: 10px;
+	}
 
-    .app{
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 33px;
-        letter-spacing: 0.4000000059604645px;
-        text-align: left;
-        color: #6B3CC9;
-        margin-top: 400px;
-        margin-left: -125px;
-    }
-    
-    .app2{
-        margin-left: 150px;
-        width: 150px;
-        margin-top: -80px;
-    }
+	.mobile-menu-bar{
+		display: block;
+	}
 
-    .appdetail{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-        margin-left: -125px;
-    }
-    
-    .footer{
-        background-color: #6B3CC9;
-        height: auto;
-    }
-    
-    .logo2{
-        width: 200px;
-        margin-top: 30px;
-        margin-left: 30px;
-    }
-    
-    .about{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: white;
-        margin-top: 20px;
-        margin-left: 30px;
-        max-width: fit-content;
-    }
-    
-    .title{
-        margin-top: 30px;
-        font-size: 21px;
-        font-weight: 600;
-        line-height: 25px;
-        letter-spacing: 0em;
-        color: white;
-    }
-    
-    .technologies, .service{
-        color: #FFFFFF;
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0em;
-        margin-left: -40px;
-        line-height: 30px;
-        list-style: none;
-    }
-    
-    .technologies ul, .service ul{
-        list-style: none;
-    }
-    
-    hr{
-        width: 600px;
-        margin-top: 5px;
-        margin-bottom: 10px;
-    }
-    
-    .policy{
-        color: white;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 17px;
-        letter-spacing: 0em;
-        padding-bottom: 15px;
-    }
-    
-    span{
-        margin-right: 10px;
-        margin-left: 10px
-    }
+	.logo1 {
+		width: 175px;
+		margin-top: 20px;
+		margin-left: 100px;
+	}
 
-    .faq{
-        font-size: 24px;
-        font-weight: 600;
-        color: #6B3CC9;
-    }
+	.mobilenav,
+	.fa-bars {
+		display: block;
+	}
 
-    #faqcollapse{
-        color: black;
-        background-color: #FAF8FF;
-        width: 50%;
-        padding: 5px;
-        border-radius: 5px;
-    }
+	.subnav{
+		display: none;
+	}
 
-    .faqexpand{
-        color: #6B3CC9;
-        background-color: #FAF8FF;
-        width: 50%;
-        padding: 5px;
-        border-radius: 5px;
-    }
+	.mobile-menu-bar {
+	position: relative;
+	}
 
-    .faq1 button{
-        border: none;
-        background: inherit;
-        cursor: pointer;
-    }
+	/* Open (hamburger) button - now relative */
+	.openbtn {
+	font-size: 28px;
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	z-index: 1101;
+	position: relative;
+	top: -45px;
+	left: 310px;
+	}
 
-    .footerbody{
-        display: flex;
-        flex-direction: column;
-    }
+	/* Mobile Menu */
+	.mobile-menu {
+	position: fixed;
+	top: 0;
+	right: -100%;
+	width: 250px;
+	height: 100vh;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	padding: 60px 20px 20px;
+	transition: right 0.3s ease;
+	z-index: 1100;
+	box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+	}
 
-    .technologydet , .servicedet{
-        margin-left: 30px;
-        margin-top: 0;
-    }
+	.mobile-menu.active {
+	right: 0;
+	}
 
+	/* Close (X) button */
+	.closebtn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 22px;
+	color: black;
+	cursor: pointer;
+	}
+
+	/* Nav links */
+	.navlink {
+	text-decoration: none;
+	color: black;
+	padding: 12px 0;
+	font-weight: 600;
+	font-size: 14px;
+	border-bottom: 1px solid #eee;
+	}
+
+	.logo1{
+		margin-left: 20px;
+	}
+
+	.app-body{
+		display: none;
+	}
+
+	.mobile-body , .sub-body{
+		display: block;
+	}
+
+	.app, .appdetail {
+		margin: 0 auto;
+		width: 300px;
+		text-align: center;
+	}
+
+	.bodyimg{
+		margin-top: 150px;
+	}
+
+	#bodyimg2{
+		margin-top: 0;
+	}
+
+	.btn2 {
+		margin-left: 75px;
+	}
+
+	#btn2 {
+		margin-left: 45px;
+	}
+
+	#appdetail2 .app, #appdetail2 .appdetail{
+		position: relative;
+		width: 300px;
+		left: -50px;
+	}
+
+	.faq1, .faq2, .faq3 {
+		margin-left: -70px;
+		width: 160%;
+	}
+
+	.footerflex{
+		display: block;
+	}
 }
